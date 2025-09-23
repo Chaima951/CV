@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            position: relative;
+        }
+        
+        .photo-container {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 10;
+        }
+        
+        .photo-container img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 4px;
+            border: 2px solid #ddd;
+        }
+        
+        .content {
+            margin-right: 160px; /* Pour éviter que le texte soit caché par l'image */
+        }
+        
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        
+        p {
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+        
+        strong {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="photo-container">
+        <img src="chaima.jpeq" alt="photo de Chaima">
+    </div>
+    
+    <div class="content">
+        <p><strong>Nom:</strong> Abdelhanine</p>
+        <p><strong>Prenom: </strong>Chaima </p>
+        
+        <h1>Compétences</h1>
+        <p>Ajoutez ici vos compétences...</p>
+        
+        <h1>Formation</h1>
+        <p>Ajoutez ici votre formation...</p>
+    </div>
+</body>
+</html>
